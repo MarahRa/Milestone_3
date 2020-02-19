@@ -1,0 +1,101 @@
+<!DOCTYPE htm>
+
+<head>
+  <title> shopping cart </title>
+  <meta charset="utf-8">
+  <meta name="shopping-page">
+  <link rel="stylesheet" href="shopping cart.css">
+
+</head>
+
+<body>
+  <header>
+    <div id="website-logo">
+      <h1 class="logo">
+        cameras for you
+      </h1>
+    </div>
+  </header>
+  <div>
+    <h2>
+      shop with us
+    </h2>
+    <hr class="line">
+  </div>
+  <div class="shop-items">
+    <div class="inline">
+      <p class="camera">CANON PowerShot SX540</p>
+      <img class="camera-img" src="https://brain-images-ssl.cdn.dixons.com/4/7/10142574/u_10142574.jpg" width="300px">
+      <div class="item-price">
+        <p class="price">£750</p>
+        <button class="btn-add shop item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="inline">
+      <p class="camera">NIKON D7500 DSLR</p>
+      <img class="camera-img" src="https://brain-images-ssl.cdn.dixons.com/4/2/10164224/u_10164224.jpg" width="300px">
+      <div class="item-price">
+        <p class="price">£800</p>
+        <button class="btn-add shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="inline">
+      <p class="camera">CANON IXUS 190</p>
+      <img class="camera-img" src="https://brain-images-ssl.cdn.dixons.com/4/6/10158364/u_10158364.jpg" width="300px">
+      <div class="item-price">
+        <p class="price">£700</p>
+        <button class="btn-add shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="inline">
+      <p class="camera"> NIKON COOLPIX B600</p>
+      <img class="camera-img" src="https://brain-images-ssl.cdn.dixons.com/5/1/10192615/u_10192615.jpg" width="300px">
+      <div class="item-price">
+        <p class="price">£850</p>
+        <button class="btn-add shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+  <h2>
+    your cart
+  </h2>
+  <hr class="line">
+  <div class="cart">
+    <p class="cart-item cart-header cart-column"> Item </p>
+    <p class="cart-price cart-header cart-column"> Price </p>
+    <p class="cart-quantity cart-header cart-column"> Quantity </p>
+  </div>
+  <div class="cart-items">
+    <div class="cart">
+      <div class="cart-item cart-column">
+        <img class="cart-item-img" src="https://brain-images-ssl.cdn.dixons.com/4/7/10142574/u_10142574.jpg" width="100"
+          height="100">
+        <p class="canon1-item"> CANON TYPE 1  </p>
+      </div>
+      <p class="cart-price cart-column"> £750 </p>
+      <div class="cart-quantity cart-column">
+        <input class="cart-quantity-input" type="number" value="1">
+        <button class="btn btn-danger" type="button">REMOVE</button>
+      </div>
+    </div>
+     <div class="cart">
+      <div class="cart-item cart-column">
+        <img class="cart-item-img" src="https://brain-images-ssl.cdn.dixons.com/4/2/10164224/u_10164224.jpg" width="100" height="100">
+        <p class="nikon1-item"> NIKON TYPE 2 </p>
+       </div>
+       <p class="cart-price cart-column"> £800 </p>
+       <div class="cart-quantity cart-column">
+         <input class="cart-quantity-input" type="number" value="2">
+         <button class="btn btn-danger" type="button"> REMOVE </button>
+       </div>
+    </div>
+  </div>
+    <hr>
+      <div class="cart-total">
+        <p class="cart-total-item">Total</p>
+        <p class="cart-total-price">£1550</p>
+        <button class="btn-checkout" type="button">checkout</button>
+      </div>
+</body>
+<script src="shopping cart.js"></script>
+</html>

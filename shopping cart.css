@@ -1,0 +1,85 @@
+body {
+    font-family: courier;
+    text-align: center;
+    }
+    #website-logo {
+    background-color: #A9A9A9;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-top: 5px
+    }
+    .logo {
+    font-family: courier;
+    text-align: center;
+    }
+    
+    .inline {
+       margin: 30px;
+    }
+    .camera {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    .camera-img {
+          height: 250px;
+    }
+    .item-price {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    }
+    .price {
+      flex-grow: 1;
+    }
+    .shop-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cart {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    .cart-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 0px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 40px;
+        margin-top: 10px;
+    }
+    .cart-total {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .cart-total-item {
+      flex-grow: 0.2;
+    }
+    .cart-total-price {
+      flex-grow: 0.2
+    }
+    .cart-column {
+      display: flex;
+      align-items:center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .nikon1-item {
+      margin-left: 50px;
+    }
+    .canon1-item {
+      margin-left: 50px
+    }
+    
